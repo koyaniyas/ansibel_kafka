@@ -1,0 +1,8 @@
+---
+- hosts: kafka
+  become: true
+
+  tasks:
+  - name: create folder
+    become: true
+    shell: mkdir /opt/kafka
