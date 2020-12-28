@@ -5,4 +5,4 @@
   tasks:
   - name: create folder
     become: true
-    shell: mkdir /opt/kafka
+    shell: mkdir /opt/kafka1
